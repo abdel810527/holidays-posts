@@ -1,0 +1,44 @@
+.bg {
+  background: url("https://holidays-posts.herokuapp.com/images/background-frames-II.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.authentication .row {
+  margin: 0;
+  padding: 0;
+}
+
+.authentication .card {
+  margin-top: 4rem;
+  padding: 1rem;
+}
+
+.authentication .error-message {
+  text-align: center;
+  border: 1px solid red;
+  color: red;
+  padding: 0.5rem;
+  margin: auto;
+  width: 50%;
+}
+
+.navigation {
+  margin-bottom: 3rem;
+}
+
+.add-post-button button {
+  margin-top: 2rem;
+}
+
+.card-action i {
+  cursor: pointer;
+}
+
+.logout {
+  height: 30%;
+  margin-top: 30%;
+  padding: 2rem;
+}
